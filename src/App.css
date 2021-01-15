@@ -1,38 +1,65 @@
+/* .table{
+  border: 1px solid black;
+}
+.table-cell{
+  border: 1px solid black;
+  background-color: rgb(209, 82, 167);
+  width: 50px;
+  height:25px;
+}
+.table-row{
+  width:100px;
+  height: 50px;
+} */
+.table-cell{
+  border: 1px solid black;
+}
+.table-cell{
+  width: 75px;
+  height: 50px;
+  background-color: aliceblue;
+}
+.col{
+   width: 50px;
+  height: 50px;
+}
+.table-row{
+  width: 100px;
+  height: 75px;
+}
 .App {
   text-align: center;
+  background-color: rgb(190, 190, 190);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  background-color: snow;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  background-color:cornflowerblue;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 5px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+table{
+  display: inline-table;
+  border: 1px solid black;
+  background-color:cornflowerblue;
 }
-
-.App-link {
-  color: #61dafb;
+span{
+  background-color: rgb(190, 190, 190);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500px;
+  font-size: 22px;
+  font-stretch: extra-expanded;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select{
+  border:2px solid black;
+  background-color:rgb(160, 211, 255);
+}
+.color-select{
+  background-color: rgb(190, 190, 190);
+}
+body{
+  background-color:  rgb(190, 190, 190) ;
 }
